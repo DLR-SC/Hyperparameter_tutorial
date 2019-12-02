@@ -7,7 +7,23 @@ The tutorial consists of two parts:
 
 ## Installation
 
-Before using the notebooks, you need to install  talos, keras and all other dependencies. This is done via
+Before using the notebooks, you need to install  talos, keras and all other dependencies. First, create a virtual environment (or conda environment) and activate it:
+
+On macOS and Linux:
+```bash
+python3 -m venv env
+
+source env/bin/activate
+```
+ 
+On Windows:
+```bash
+py -m venv env
+
+.\env\Scripts\activate
+```
+
+Install all requirements 
 
 ```bash
 pip install -r requirements.txt
