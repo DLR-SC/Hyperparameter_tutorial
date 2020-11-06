@@ -34,3 +34,10 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook
 ```
+
+## Fallback solution (nothing works)
+
+Alternatively, if nothing works, you can also run your Jupyter notebooks
+in a live environment using Binder. Just click on the following link
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DLR-SC/Hyperparameter_tutorial/HEAD) 
